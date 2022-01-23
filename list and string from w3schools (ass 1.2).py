@@ -1,0 +1,43 @@
+#list methods
+l=[1,2,3,4,5,77]
+l.append(89)
+print("append",l)
+l.sort(reverse=True)
+print("sort",l)
+l.pop(1)
+print("remove by position is pop",l)
+a=l.copy()
+print("copy",a)
+b=l.count(1)
+print("count of 1",b)
+s=["ss","hh","hh"]
+l.extend(s)
+print("extend",l)
+c=l.index("hh")
+print("index",c)
+l.insert(1,"sss")
+print("insert",l)
+l.remove("hh")
+print("remove",l)
+l.reverse()
+print("reverse",l)
+l.clear()
+print("clear",l)
+#string methods
+s="suvetha"
+x=s.capitalize()
+print("first character to uppercase",x)
+ss=x.casefold()
+print("converts to lower case",ss)
+ss=ss.center(10,"o")
+print("centre ",ss)
+s=" i am ams"
+s=s.count("am")
+print(s)
+ss=ss.endswith("a")
+print(ss)
+s=" a good decision"
+ss=s.find("a")
+print(ss)
+a=s.replace("a","an")
+print(a)
